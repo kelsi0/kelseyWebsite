@@ -4,11 +4,12 @@ import {Link} from 'react-router-dom';
 class Header extends Component {
 
     render(){
-
+        //TODO BN: remove arbitrary alt of image
         return(
             /* <!-- Masthead--> */
-            <header className="masthead" style={{backgroundImage: `url(${this.props.image})`}}>
-                <div className="container">
+            <header className="masthead" >       
+                <img src={this.props.image} alt="Girl in a jacket"  className="img-fluid"/> 
+                 <div className="container">
                     <div className="masthead-subheading">{this.props.title}</div>
                     <div className="masthead-heading text-uppercase">{this.props.subtitle}</div>
                     {this.props.showButton &&
