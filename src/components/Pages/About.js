@@ -7,7 +7,7 @@ import Team from '../Common/Teams';
 class About extends Component{
     render(){
         return(
-            <div>
+            <div className="custom-content-div">
                 <Header
                     title="About me!"
                     subtitle="It's all the cat."

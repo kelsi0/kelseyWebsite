@@ -14,7 +14,7 @@ class Home extends Component {
 
     render(){
         return(
-            <div>
+            <div className="custom-content-div">
                 <Header
                     title="Hi! I'm Kelsey Sheridan,"
                     subtitle="IT'S NICE TO MEET YOU"
