@@ -12,9 +12,10 @@ class Header extends Component {
                     <img src={this.props.image} alt="header"  className="img-fluid imageBox"/> 
                     <div className="masthead-subheading">{this.props.title}</div>
                     <div className="masthead-heading text-uppercase">{this.props.subtitle}</div>
-                    {this.props.showButton &&
+                    <div className="masthead-button">{this.props.showButton &&
                         <Link className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" to={this.props.link}>{this.props.buttonText}</Link>
                     }
+                    </div>
                 </div>
             </header>
         )        
