@@ -8,8 +8,8 @@ class Header extends Component {
         return(
             /* <!-- Masthead--> */
             <header className="masthead" >       
-                <img src={this.props.image} alt="Girl in a jacket"  className="img-fluid"/> 
-                 <div className="container">
+                <div className="headerContainer">
+                    <img src={this.props.image} alt="header"  className="img-fluid imageBox"/> 
                     <div className="masthead-subheading">{this.props.title}</div>
                     <div className="masthead-heading text-uppercase">{this.props.subtitle}</div>
                     {this.props.showButton &&

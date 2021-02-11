@@ -474,6 +474,11 @@ mark,
   content: "— ";
 }
 
+.imageBox {
+  max-width: 100%;
+  height: 2000px;
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -539,6 +544,12 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
+
+.headerContainer {
+  text-align: center;
+  position: relative;
+}
+
 
 .container,
 .container-fluid,
@@ -10130,6 +10141,10 @@ header.masthead {
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-style: italic;
   line-height: 1.5rem;
   margin-bottom: 25px;
@@ -10137,6 +10152,10 @@ header.masthead .masthead-subheading {
 }
 header.masthead .masthead-heading {
   font-size: 3.25rem;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-weight: 700;
   line-height: 3.25rem;
   margin-bottom: 2rem;
