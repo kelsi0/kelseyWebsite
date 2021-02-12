@@ -9,6 +9,7 @@ import Contact from './components/Pages/Contact';
 import Skill from './components/Pages/Skill';
 import Portfolios from './components/Pages/Portfolios'
 import Coding from './components/Pages/Coding'
+import Climbing from './components/Pages/Climbing'
 
 class App extends Component {
   render() {
@@ -45,6 +46,11 @@ class App extends Component {
           <Route
           path="/coding"
           component={Coding}
+          />
+
+          <Route
+          path="/climbing"
+          component={Climbing}
           />
 
         </PageWrapper>
