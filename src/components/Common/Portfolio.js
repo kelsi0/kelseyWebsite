@@ -25,9 +25,9 @@ class Portfolio extends Component {
                         {portfolio.map((item, index) => {
                             return <PortfolioItem {...item} key ={index} />
                         })}
-                        {portfolioVideo.map((item, index) => {
+                        {/* {portfolioVideo.map((item, index) => {
                             return <PortfolioVideoItem {...item} key ={index} />
-                        })}
+                        })} */}
                     </div>
                 </div>
             </section>
