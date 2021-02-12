@@ -10,6 +10,7 @@ import Skill from './components/Pages/Skill';
 import Portfolios from './components/Pages/Portfolios'
 import Coding from './components/Pages/Coding'
 import Climbing from './components/Pages/Climbing'
+import MainBlogPage from './components/Pages/MainBlogPage';
 
 class App extends Component {
   render() {
@@ -51,6 +52,11 @@ class App extends Component {
           <Route
           path="/climbing"
           component={Climbing}
+          />
+
+          <Route
+          path="/mainBlogPage"
+          component={MainBlogPage}
           />
 
         </PageWrapper>
