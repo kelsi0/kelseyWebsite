@@ -51,6 +51,12 @@
   padding-top: 10px;
 }
 
+.cardBox {
+  border-style: groove;
+  border: 1px 1px #040505;
+
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -478,6 +484,11 @@ mark,
   content: "— ";
 }
 
+.smallImageBox {
+ width: auto;
+ max-height: 150px; 
+}
+
 .imageBox {
   max-width: 100%;
   height: 2000px;
@@ -554,6 +565,9 @@ pre code {
   position: relative;
 }
 
+.backgroundText {
+  background-color: #212529;;
+}
 
 .container,
 .container-fluid,
@@ -10241,6 +10255,8 @@ header.masthead .masthead-heading {
     margin-bottom: 1rem;
   }
 }
+
+
 
 .portfolioImageBox {
   height: 253;
