@@ -6,7 +6,7 @@ class CardComponent extends Component {
         return(
         <div className="cardBox">
         <div className="col-md-12">
-            <h4 className="my-3">title</h4>
+            <a className="my-3" href="url">TITLE</a>
             <h6 className="my-3">DATE</h6>
             <img className="img-fluid smallImageBox" src={image} alt="Picture"></img>
             <p className="text-muted">summary</p>
