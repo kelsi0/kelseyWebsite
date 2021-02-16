@@ -1,0 +1,54 @@
+{
+	"posts":
+	{
+		"climbing_posts":[
+		{
+			"id":12345678,
+			"date":"10/10/2020",
+			"title": "My MCC lead climb",
+			"card_details":
+			{
+				"card_image":"../assets/img/Climbing/Climbing.jpg",
+				"summary": "I climbed big wall at mcc"
+			},
+			"post_elements":[
+			{
+				"element_type": "picture",
+				"image_url":"../assets/img/Home/lead_climb.jpg",
+				"alt_text": "me climbing"
+			},
+			{
+				"element_type": "paragraph",
+				"text":"I went to MCC to climb, I did a lead climb, I swore a lot"
+			},
+			{
+				"element_type": "video",
+				"video_url":"youtube/myVideo"
+			}]
+		},
+		{
+			"id":11223344,
+			"date":"10/10/2020",
+			"title": "My other climb",
+			"card_details":
+			{
+				"card_image":"../assets/img/Home/lead_climb.jpg",
+				"summary": "I climbed big wall at mcc"
+			},
+			"post_elements":[
+			{
+				"element_type": "picture",
+				"image_url":"../assets/img/Home/lead_climb.jpg",
+				"alt_text": "me climbing"
+			},
+			{
+				"element_type": "paragraph",
+				"text":"I went to MCC to climb, I did a lead climb, I swore a lot"
+			},
+			{
+				"element_type": "video",
+				"video_url":"youtube/myVideo"
+			}]
+		}]
+	}
+}
