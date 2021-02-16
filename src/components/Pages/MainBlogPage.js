@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
-import image from "../assets/img/header-bg.jpg";
-import SmallerHeader from "../Common/SmallerHeader";
 import CardComponent from "../Common/CardComponent";
+import data from "../../data";
+
+const postsDataList = data.posts.climbing_posts
 
 class MainBlogPage extends Component {
 
@@ -22,11 +23,9 @@ class MainBlogPage extends Component {
                     <div className="text-center">
                         <h2 className="section-heading text-uppercase">BLOG PAGE TITLE</h2>
                         <h3 className="section-subheading text-muted">Small Description Here</h3>
-                        <CardComponent 
-                            title="TITLE"
-                            date="2020"
-                            summary="Many Many short words"
-                        />
+                        {postsDataList.map((item, index) => {
+                            return <CardComponent {...item} key ={index} />
+                        })}
                     </div>
                 </div>
             </section>
