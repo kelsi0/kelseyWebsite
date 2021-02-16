@@ -569,6 +569,7 @@ pre code {
   background-color: #212529;;
 }
 
+
 .container,
 .container-fluid,
 .container-xl,
@@ -10031,10 +10032,7 @@ p {
 }
 
 @media (min-width: 768px) {
-  section {
-    padding: 9rem 0;
-  }
-}
+
 ::-moz-selection {
   background: #fed136;
   text-shadow: none;
@@ -10078,6 +10076,7 @@ img::-moz-selection {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #212529;
+  height: 4rem;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
