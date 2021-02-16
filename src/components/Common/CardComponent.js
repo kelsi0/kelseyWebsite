@@ -6,10 +6,10 @@ class CardComponent extends Component {
         return(
         <div className="cardBox">
         <div className="col-md-12">
-            <a className="my-3" href="/blogArticlePage">TITLE</a>
-            <h6 className="my-3">DATE</h6>
-            <img className="img-fluid smallImageBox" src={image} alt="Picture"></img>
-            <p className="text-muted">summary</p>
+            <a className="my-3" href="/blogArticlePage">{this.props.title}</a>
+            <h6 className="my-3">{this.props.date}</h6>
+            <img className="img-fluid smallImageBox" src={this.props.image} alt="Picture"></img>
+            <p className="text-muted">{this.props.summary}</p>
         </div>
         </div>
         )

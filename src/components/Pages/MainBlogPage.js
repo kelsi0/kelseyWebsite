@@ -22,7 +22,11 @@ class MainBlogPage extends Component {
                     <div className="text-center">
                         <h2 className="section-heading text-uppercase">BLOG PAGE TITLE</h2>
                         <h3 className="section-subheading text-muted">Small Description Here</h3>
-                        <CardComponent />
+                        <CardComponent 
+                            title="TITLE"
+                            date="2020"
+                            summary="Many Many short words"
+                        />
                     </div>
                 </div>
             </section>
