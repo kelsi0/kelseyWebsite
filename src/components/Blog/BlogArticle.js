@@ -15,8 +15,6 @@ class BlogArticle extends Component {
                     <h6 className="my-3">{this.props.date}</h6>
                     {postData.map((item, index) => {
                                 return <ArticleComponentPicture {...item} key ={index} />
-                                return <ArticleComponentVideo {...item} key ={index} />
-                                return <ArticleComponentText {...item} key ={index} />
                     })}                
                 </div>
             </div>
