@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Header from '../Common/Header';
-import image from '../assets/img/Home/home.jpg';
+import image from '../../assets/img/Home/home.jpg';
 
 // Re-Usabled components
 import Skills from "../Common/Skills";

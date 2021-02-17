@@ -2,9 +2,9 @@ import React, {Component} from 'react';
 import PortfolioItem from "./PortfolioItem";
 import PortfolioVideoItem from "./PortfolioVideoItem"
 
-// import img1 from '../assets/img/Portfolio/CodeNation.png';
-import img2 from '../assets/img/Climbing/Dangle.jpg';
-import img3 from '../assets/img/Climbing/climb.png';
+// import img1 from '../../assets/img/Portfolio/CodeNation.png';
+import img2 from '../../assets/img/Climbing/Dangle.jpg';
+import img3 from '../../assets/img/Climbing/climb.png';
 
 const portfolio = [
     {title: 'Teaching Climbing', subtitle:'As a part of my training for the climbing competitions I supported my climbing instructors in both teaching and supervising the younger climbers. This has given me a great basis to be abe to teach newcomers to the sport. More recently I have been introducing my friends to bouldering and auto-belay climbing and instructing them each week. I began teaching correct belay technique and have taught one of my friends who is now confident in belaying me without supervision.', image: img2},

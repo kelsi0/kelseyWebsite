@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import TimelineItem from './TimelineItem';
-import image1 from '../assets/img/About/About1.png';
-import image2 from '../assets/img/About/About2.png';
-import image3 from '../assets/img/About/About3.png';
-import image4 from '../assets/img/About/About4.png';
+import image1 from '../../assets/img/About/About1.png';
+import image2 from '../../assets/img/About/About2.png';
+import image3 from '../../assets/img/About/About3.png';
+import image4 from '../../assets/img/About/About4.png';
 
 const timeline = [
     {Date: '2008-2014', item: 'Climbing', description: 'My Climbing journey began, as I began to improve I began competing in Southern France. After a move to UK, I joined the Youth Squad at Quay Climbing Center.', image: image1},

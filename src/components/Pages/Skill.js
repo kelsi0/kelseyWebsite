@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Header from '../Common/Header';
-import image from '../assets/img/SkillsPage/luna.jpg';
+import image from '../../assets/img/SkillsPage/luna.jpg';
 import Skills from '../Common/Skills';
 
 

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Header from '../Common/Header';
-import image from '../assets/img/Portfolios/portfolio.jpg';
+import image from '../../assets/img/Portfolios/portfolio.jpg';
 import Portfolio from '../Common/Portfolio';
 
 

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Header from '../Common/Header';
-import image from '../assets/img/Coding/Hamble.jpg'; 
+import image from '../../assets/img/Coding/Hamble.jpg'; 
 
 // Re-Usabled components
 import CodingContent from '../Common/CodingContent'

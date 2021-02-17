@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import TeamItem from './TeamItem';
 
-import img1 from '../assets/img/Team/Team1.jpg';
-import img2 from '../assets/img/Team/Team2.jpg';
-import img3 from '../assets/img/Team/Team3.jpg';
+import img1 from '../../assets/img/Team/Team1.jpg';
+import img2 from '../../assets/img/Team/Team2.jpg';
+import img3 from '../../assets/img/Team/Team3.jpg';
 
 const team = [
     {title: 'Kelsey Sheridan', role: 'The Human', img: img1, github: "https://github.com/kelsi0", facebook: "https://www.facebook.com/Kelsi0", linkedin: "https://www.linkedin.com/in/kelsey-jane-steed-sheridan/"},

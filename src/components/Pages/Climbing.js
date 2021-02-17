@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Header from '../Common/Header';
-import image from '../assets/img/Climbing/Climbing.jpg'; 
+import image from '../../assets/img/Climbing/Climbing.jpg'; 
 
 // Re-Usabled components
 import ClimbingContent from '../Common/ClimbingContent'

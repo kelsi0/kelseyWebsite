@@ -8,13 +8,13 @@
 			"title": "My MCC lead climb",
 			"card_details":
 			{
-				"card_image":"../assets/img/Climbing/Climbing.jpg",
+				"card_image":"./assets/img/Climbing/Climbing.jpg",
 				"summary": "I climbed big wall at mcc"
 			},
 			"post_elements":[
 			{
 				"element_type": "picture",
-				"image_url":"../assets/img/Home/lead_climb.jpg",
+				"image_url":"./assets/img/Climbing/Climbing.jpg",
 				"alt_text": "me climbing"
 			},
 			{
@@ -32,13 +32,13 @@
 			"title": "My other climb",
 			"card_details":
 			{
-				"card_image":"../assets/img/Home/lead_climb.jpg",
+				"card_image":"../assets/img/Climbing/Dangle.jpg",
 				"summary": "I climbed big wall at mcc"
 			},
 			"post_elements":[
 			{
 				"element_type": "picture",
-				"image_url":"../assets/img/Home/lead_climb.jpg",
+				"image_url":"./assets/img/Climbing/Dangle.jpg",
 				"alt_text": "me climbing"
 			},
 			{
