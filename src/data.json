@@ -22,8 +22,12 @@
 				"text":"I went to MCC to climb, I did a lead climb, I swore a lot"
 			},
 			{
+				"element_type": "paragraph",
+				"text":"SECOND PARAGRAPH OF STUFFS"
+			},
+			{
 				"element_type": "video",
-				"video_url":"youtube/myVideo"
+				"video_url":"https://www.youtube.com/watch?v=JAVMUZJ8lKQ"
 			}]
 		},
 		{
@@ -47,7 +51,7 @@
 			},
 			{
 				"element_type": "video",
-				"video_url":"youtube/myVideo"
+				"video_url":"https://www.youtube.com/watch?v=JAVMUZJ8lKQ"
 			}]
 		}]
 	}

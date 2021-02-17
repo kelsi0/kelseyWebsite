@@ -8,8 +8,6 @@ import Portfolio from "../Common/Portfolio";
 import Timeline from "../Common/Timeline";
 import Team from "../Common/Teams";
 
-console.log(image);
-
 class Home extends Component {
 
     render(){

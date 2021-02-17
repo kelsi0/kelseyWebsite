@@ -4,7 +4,7 @@ class ArticleComponentText extends Component {
     render(){
         return(
             <div>
-                <p className="text-muted">{this.props.post_elements.text}</p>
+                <p className="text-muted">{this.props.text}</p>
             </div>
         )
     }
