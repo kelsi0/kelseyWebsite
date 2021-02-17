@@ -1,21 +1,26 @@
 import React, {Component} from 'react';
 import data from "../../data";
-import ArticleComponentPicture from './ArticleComponentPicture';
-import ArticleComponentVideo from './ArticleComponentVideo';
-import ArticleComponentText from './ArticleComponentText';
+import ArticleComponent from './ArticleComponent';
 
 const postData = data.posts.climbing_posts
 
 class BlogArticle extends Component {
     render(){
+        let post = null;
+        postData.forEach(element => {
+            if(element.id == this.props.id)
+                post = element;
+        });
+
         return(
             <div className="cardBox">
                 <div className="col-md-12">
-                    <a className="my-3" href="url">{this.props.title}</a>
-                    <h6 className="my-3">{this.props.date}</h6>
-                    {postData.map((item, index) => {
-                                return <ArticleComponentPicture {...item} key ={index} />
-                    })}                
+                    <a className="my-3" href="url">{post.title}</a>
+                    <h6 className="my-3">{post.date}</h6>
+                    {post.post_elements.map((item, index) => {
+                            return <ArticleComponent {...item} key ={index} />
+                        })}
+
                 </div>
             </div>
         )
