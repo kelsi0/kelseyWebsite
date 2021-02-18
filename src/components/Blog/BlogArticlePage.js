@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import BlogArticle from '../Blog/BlogArticle';
-import CardComponent from '../Common/CardComponent';
+import CardComponent from '../Blog/CardComponent';
 import data from "../../data";
 
 import {
