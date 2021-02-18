@@ -15,7 +15,7 @@ class BlogArticle extends Component {
         return(
             <div className="cardBox">
                 <div className="col-md-12">
-                    <a className="my-3" href="url">{post.title}</a>
+                    <h2 className="cardTitle">{post.title}</h2>
                     <h6 className="my-3">{post.date}</h6>
                     {post.post_elements.map((item, index) => {
                             return <ArticleComponent {...item} key ={index} />

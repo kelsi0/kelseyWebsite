@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import CardComponent from "../Blog/CardComponent";
 import data from "../../data";
 
-const postsDataList = data.posts.climbing_posts
+const postsDataList = data.posts.music_posts
 
 class MainBlogPage extends Component {
 
