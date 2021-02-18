@@ -9,7 +9,7 @@ import {
     useLocation
 } from "react-router-dom";
 
-const postsDataList = data.posts.climbing_posts
+const postsDataList = data.posts
 
 function useQuery() {
     return new URLSearchParams(useLocation().search);

@@ -3,11 +3,21 @@ import data from "../../data";
 import ArticleComponent from './ArticleComponent';
 
 const postData = data.posts.climbing_posts
+const musicPostData = data.posts.music_posts
+const codePostData = data.posts.code_posts
 
 class BlogArticle extends Component {
     render(){
         let post = null;
         postData.forEach(element => {
+            if(element.id == this.props.id)
+                post = element;
+        });
+        musicPostData.forEach(element => {
+            if(element.id == this.props.id)
+                post = element;
+        });
+        codePostData.forEach(element => {
             if(element.id == this.props.id)
                 post = element;
         });

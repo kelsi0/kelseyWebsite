@@ -2,9 +2,9 @@ import React, {Component} from 'react';
 import CardComponent from "../Blog/CardComponent";
 import data from "../../data";
 
-const postsDataList = data.posts.music_posts
+const postsDataList = data.posts.code_posts
 
-class MainMusicBlogPage extends Component {
+class MainCodeBlogPage extends Component {
 
     render(){
         return(
@@ -21,8 +21,8 @@ class MainMusicBlogPage extends Component {
             {/* Change this in CSS */}
                 <div className="container">
                     <div className="text-center">
-                        <h2 className="section-heading text-uppercase">My Music Journey</h2>
-                        <h3 className="section-subheading text-muted">From University to teaching!</h3>
+                        <h2 className="section-heading text-uppercase">Coding</h2>
+                        <h3 className="section-subheading text-muted">"WHAT I'VE DONE SO FAR</h3>
                         {postsDataList.map((item, index) => {
                             return <CardComponent {...item} key ={index} />
                         })}
@@ -33,4 +33,4 @@ class MainMusicBlogPage extends Component {
     }
 }
 
-export default MainMusicBlogPage;
+export default MainCodeBlogPage;
