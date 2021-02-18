@@ -3,7 +3,7 @@
 	{
 		"climbing_posts":[
 		{
-			"id":12345678,
+			"id":11111111,
 			"date":"10/10/2020",
 			"title": "Teaching Climbing",
 			"card_details":
@@ -24,7 +24,7 @@
 		]
 		},
 		{
-			"id":11223344,
+			"id":11111112,
 			"date":"10/10/2020",
 			"title": "CWI Qualification Route",
 			"card_details":
@@ -45,7 +45,7 @@
 		]
 		},
 		{
-			"id":11111111,
+			"id":11111113,
 			"date":"10/10/2020",
 			"title": "Competitive Climbing Experience",
 			"card_details":
@@ -69,6 +69,54 @@
 			}
 		]
 		}
-	]
+	],
+		"music_posts": [
+			{
+				"id":2111111,
+				"date":"10/10/2020",
+				"title": "MUSIC",
+				"card_details":
+				{
+					"card_image":"../assets/img/Music/claasicalPerf.png",
+					"summary": "I did a sing song."
+				},
+				"post_elements":[
+				{
+					"element_type": "picture",
+					"image_url":"./assets/img/Music/Grad.jpg",
+					"alt_text": "me graduating"
+				},
+				{
+					"element_type": "paragraph",
+					"text":"I got myself one of those degrees."
+				}
+			]
+			}
+
+		],
+			"code_posts": [
+				{
+					"id":3111111,
+					"date":"10/10/2020",
+					"title": "Code",
+					"card_details":
+					{
+						"card_image":"./assets/img/Code/Hamble.jpg",
+						"summary": "Having recently completed a three week Develop Coding course with CodeNation, I have begun a job search for a role in the industry, I have continued to learn more and begin new projects."
+					},
+					"post_elements":[
+					{
+						"element_type": "paragraph",
+						"text":"I began learning the basics of computer science alongside my university studies by becoming a member of the University's Computing Society in which I started to learn the basic syntax of code before moving on to build some simple C# projects. As I became familiar with the syntax of code I started to widen my knowledge and familiarise myself with Python, Java, and Web Development as well as the basics of programming and data analysis. I applied my new skills by building and maintaining a website to promote my private music lessons. I am currently using various online resources to solve programming puzzles and further my experience."
+					},
+					{
+						"element_type": "code_snippet",
+						"trinket_url":"https://trinket.io/embed/python/2444963a5d",
+						"code_title": "Here is a small program that will provide you with my github or linkedin page, please hit the run button to play!"
+					}
+				]
+				}	
+			]
+
 	}
 }
