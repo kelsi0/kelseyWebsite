@@ -7,11 +7,9 @@ import Home from './components/Pages/Home';
 import About from './components/Pages/About'; 
 import Contact from './components/Pages/Contact';
 import Skill from './components/Pages/Skill';
-import Portfolios from './components/Pages/Portfolios'
 import Coding from './components/Pages/Coding'
-import Climbing from './components/Pages/Climbing'
 import MainBlogPage from './components/Pages/MainBlogPage';
-import BlogArticlePage from './components/Pages/BlogArticlePage';
+import BlogArticlePage from './components/Blog/BlogArticlePage';
 
 class App extends Component {
   render() {
@@ -41,18 +39,8 @@ class App extends Component {
           />
 
           <Route
-          path="/portfolios"
-          component={Portfolios}
-          />
-
-          <Route
           path="/coding"
           component={Coding}
-          />
-
-          <Route
-          path="/climbing"
-          component={Climbing}
           />
 
           <Route
