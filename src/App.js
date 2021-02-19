@@ -7,7 +7,6 @@ import Home from './components/Pages/Home';
 import About from './components/Pages/About'; 
 import Contact from './components/Pages/Contact';
 import Skill from './components/Pages/Skill';
-import Coding from './components/Pages/Coding'
 import MainBlogPage from './components/Pages/MainBlogPage';
 import BlogArticlePage from './components/Blog/BlogArticlePage';
 import MainMusicBlogPage from './components/Pages/MainMusicBlogPage';
@@ -37,11 +36,6 @@ class App extends Component {
           <Route
           path="/skill"
           component={Skill}
-          />
-
-          <Route
-          path="/coding"
-          component={Coding}
           />
 
           <Route
