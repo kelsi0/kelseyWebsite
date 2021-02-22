@@ -36,6 +36,8 @@ bower_components
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
+# Build Files
+build/
 
 # Dependency directories
 node_modules/
@@ -116,5 +118,3 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-#Build Files
-build/
