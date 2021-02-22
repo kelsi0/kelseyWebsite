@@ -19,7 +19,7 @@ class App extends Component {
           
           <Route
           exact={true}
-          path="/"
+          path="/kelseyWebsite"
           component={Home}
           />
 
