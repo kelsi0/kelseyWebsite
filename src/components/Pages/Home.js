@@ -23,7 +23,7 @@ class Home extends Component {
 
                 <Skills />
                 <Timeline />
-                <Team />
+                {/* <Team /> */}
             </div>
         )
     }
