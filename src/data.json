@@ -29,7 +29,7 @@
 			"title": "CWI Qualification Route",
 			"card_details":
 			{
-				"card_image":"../assets/img/Climbing/Dangle.jpg",
+				"card_image":"./assets/img/Climbing/Dangle.jpg",
 				"summary": "As part of my continual development plan I am currently focusing on passing my CWI"
 			},
 			"post_elements":[
@@ -50,7 +50,7 @@
 			"title": "Competitive Climbing Experience",
 			"card_details":
 			{
-				"card_image":"../assets/img/Climbing/me.jpg",
+				"card_image":"./assets/img/Climbing/me.jpg",
 				"summary": "During my youth, I gained experience climbing competitively both indoors and outdoors."
 			},
 			"post_elements":[
@@ -72,29 +72,99 @@
 	],
 		"music_posts": [
 			{
-				"id":2111111,
-				"date":"10/10/2020",
-				"title": "MUSIC",
+				"id":2111114,
+				"date":"23/02/2021",
+				"title": "Me and Music",
 				"card_details":
 				{
-					"card_image":"../assets/img/Music/claasicalPerf.png",
-					"summary": "I did a sing song."
+					"card_image":"./assets/img/Music/claasicalPerf.png",
+					"summary": "My musical Journey"
 				},
 				"post_elements":[
 				{
-					"element_type": "picture",
-					"image_url":"./assets/img/Music/Grad.jpg",
-					"alt_text": "me graduating"
+					"element_type": "paragraph",
+					"text":"In July 2018, I graduted with a 2:1 Musical Arts degree from Salford University. I had began my musical journey with piano lessons as a child and then choosing to study music further at BTEC and finally degree level. Having started with classical piano, I originally found the transition into pop vocals difficult but after learning to play guitar and accompany myself I began to find my own voice. At the start of my degree, I continued to develop my voice and music theory when I fell ill and was diagnosed with Chronic Fatigue Syndrome. This severly impacted my studies until my final year when I switched to the Musical Arts degree and focused on vocal and clarinet performance and composition. I found the strength in my voice and then how to develop and control it. After graduating, I began teaching piano to ages 6 to 80 as my customer base was growing the covid-19 pandemic hit and I was forced to stop. Currently, I am working on my own songs and my first EP in my free time while I focus on finding my feet and building a career in IT."
+				}
+			]
+			},
+			{
+				"id":2111111,
+				"date":"10/10/2020",
+				"title": "My cover of Speechless from Disney's Aladdin.",
+				"card_details":
+				{
+					"card_image":"./assets/img/Music/claasicalPerf.png",
+					"summary": "I recorded this last summer after watching the movie, I loved the overall message behind the song."
+				},
+				"post_elements":[
+				{
+					"element_type": "video",
+					"video_url":"https://www.youtube.com/embed/ROebIwHD2ZQ"
 				},
 				{
 					"element_type": "paragraph",
-					"text":"I got myself one of those degrees."
+					"text":"The cat decided to get involved too! I have covered other disney songs too, find them on my youtube channel."
+				}
+			]
+			},
+			{
+				"id":2111112,
+				"date":"10/10/2020",
+				"title": "My single Show Me",
+				"card_details":
+				{
+					"card_image":"./assets/img/Music/claasicalPerf.png",
+					"summary": "I have an ep I'm currently working on, here is the single I have released."
+				},
+				"post_elements":[
+				{
+					"element_type": "video",
+					"video_url":"https://www.youtube.com/embed/HcxT-u9nFQk"
+				},
+				{
+					"element_type": "paragraph",
+					"text":"This single is from the EP I'm currently working on, I'm planning on having 5 songs total."
+				}
+			]
+			},
+			{
+				"id":2111113,
+				"date":"10/10/2020",
+				"title": "Live",
+				"card_details":
+				{
+					"card_image":"./assets/img/Music/claasicalPerf.png",
+					"summary": "I have also performed live recitals of voice and piano accompaniment."
+				},
+				"post_elements":[
+				{
+					"element_type": "video",
+					"video_url":"https://www.youtube.com/embed/JZafESCxhR8"
+				},
+				{
+					"element_type": "paragraph",
+					"text":"This performance was from one of my classical recitals where I performed Girl with One Eye."
 				}
 			]
 			}
-
 		],
 			"code_posts": [
+				{
+					"id":3111112,
+					"date":"23/02/2021",
+					"title": "My website is finally on Github Pages!",
+					"card_details":
+					{
+						"card_image":"./assets/img/Code/Hamble.jpg",
+						"summary": "I was finally happy enough with my progress to host my website on Github pages."
+					},
+					"post_elements":[
+					{
+						"element_type": "paragraph",
+						"text":"Having finally gotten my blog style pages up and running, I'm happy to say I finally feel ready to share it with the world and potential employers! Reactjs has been challenging at times alongside learning JavaScript but I'm very happy with the results!"
+					}
+				]
+				},
 				{
 					"id":3111111,
 					"date":"10/10/2020",
@@ -115,7 +185,7 @@
 						"code_title": "Here is a small program that will provide you with my github or linkedin page, please hit the run button to play!"
 					}
 				]
-				}	
+				}		
 			]
 
 	}

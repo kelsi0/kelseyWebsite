@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import PageWrapper from './components/PageWrapper';
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import {HashRouter, Route, Link} from 'react-router-dom';
 
 //Pages
 import Home from './components/Pages/Home'; 
@@ -14,12 +14,12 @@ import MainCodeBlogPage from './components/Pages/MainCodeBlogPage';
 class App extends Component {
   render() {
     return(
-      <Router>
+      <HashRouter basename={process.env.PUBLIC_URL}>
         <PageWrapper>
           
           <Route
           exact={true}
-          path="/kelseyWebsite"
+          path="/"
           component={Home}
           />
 
@@ -59,7 +59,7 @@ class App extends Component {
           />
 
         </PageWrapper>
-      </Router>
+      </HashRouter>
     );
   }
 }
