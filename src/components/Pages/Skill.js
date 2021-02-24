@@ -7,7 +7,7 @@ import Skills from '../Common/Skills';
 class Skill extends Component{
     render(){
         return(
-            <div>
+            <div className="custom-content-div">
                 <Header
                     title=""
                     subtitle="Skills"
