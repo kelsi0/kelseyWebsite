@@ -28,10 +28,8 @@ class MainCodeBlogPage extends Component {
                             return <CardComponent {...item} key ={index} />
                         })}
                     </div>
-                </div>
-                <div>
                     <Sidebar />
-                </div>
+                </div>                   
             </section>
         )
     }

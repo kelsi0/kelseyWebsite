@@ -13,7 +13,7 @@ class SideBar extends Component {
                             screenName: 'kelsi0'
                         }}
                         options={{
-                            theme: 'dark', width:'auto', height:'80vh'
+                            width:'auto', height:'80vh'
                         }}
                     />
                 </div>
