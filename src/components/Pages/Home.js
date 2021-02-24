@@ -16,8 +16,8 @@ class Home extends Component {
                     title="Hi! I'm Kelsey Sheridan,"
                     subtitle="IT'S NICE TO MEET YOU"
                     buttonText="Tell me more"
-                    link="/skills"
-                    showButton={false}
+                    link="/skill"
+                    showButton={true}
                     image={image}
                 />
 
