@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import CardComponent from "../Blog/CardComponent";
 import data from "../../data";
+import Sidebar from '../Common/SideBar';
 
 const postsDataList = data.posts.code_posts
 
@@ -27,6 +28,9 @@ class MainCodeBlogPage extends Component {
                             return <CardComponent {...item} key ={index} />
                         })}
                     </div>
+                </div>
+                <div>
+                    <Sidebar />
                 </div>
             </section>
         )
