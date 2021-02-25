@@ -56,10 +56,11 @@
   width: 20rem;
   margin-top: 4rem;
   margin-bottom: 10rem;
-  height: 1000px
+  height: 1000px;
+  padding-right: 15px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1900px) {
   .sideBarCard { display: none; }   /* hide it elsewhere */
 }
 
@@ -73,7 +74,13 @@
   padding-right: 5px;
   margin-left: 18%;
   margin-right: 15%;
+}
 
+@media screen and (max-width: 1900px) {
+    .cardbox {
+      margin-left: 28%;
+      margin-right: 25%;
+    }
 }
 
 html {
@@ -591,6 +598,14 @@ pre code {
 .headerContainer {
   text-align: center;
   position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .headerContainer {
+    text-align: center;
+    position: relative;
+    padding-top: 3rem;
+  }
 }
 
 .backgroundText {
@@ -4013,6 +4028,7 @@ input[type=button].btn-block {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  background: #212529;
 }
 .navbar .container,
 .navbar .container-fluid,
@@ -4356,8 +4372,7 @@ input[type=button].btn-block {
 }
 .navbar-dark .navbar-toggler {
   color: #fed136;
-  border-color: rgba(255, 255, 255, 0.1);
-  background-color: rgba(255, 255, 255, 0.193);
+
 }
 .navbar-dark .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -10201,11 +10216,9 @@ img::-moz-selection {
 }
 
 header.masthead {
-  /* padding-top: 10.5rem; */
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  /* background-image: url("../assets/img/header-bg.jpg"); */
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10312,22 +10325,21 @@ header.masthead .masthead-heading {
   }
 }
 
-@media screen and (max-width:601px) {
+@media screen and (min-width:100px) and (max-width:601px) {
   header.masthead .masthead-subheading {
     font-size: 0.25rem;
     font-style: italic;
     line-height: 0.10rem;
     margin-bottom: 0.25rem;
-    color: #fff;
   }
   header.masthead .masthead-heading {
     font-size: 0.5rem;
     font-weight: 75;
     line-height: 0.5rem;
     margin-bottom: 0.5rem;
-    color: #fff;
   }
 }
+
 
 
 
@@ -10663,4 +10675,22 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .custom-content-div {
   padding-top: 4rem;
-}}
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 2px groove;
+  padding-bottom: 15px;
+  padding-top:15px;
+}
+
+.profilePic {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.twitter {
+  padding-top: 15px;
+}
