@@ -17,7 +17,7 @@ class Home extends Component {
                     subtitle="IT'S NICE TO MEET YOU"
                     buttonText="Tell me more"
                     link="/skill"
-                    showButton={true}
+                    showButton={false}
                     image={image}
                 />
 
