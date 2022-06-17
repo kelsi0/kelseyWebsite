@@ -1,46 +1,43 @@
 import React, {Component} from 'react';
 
-class Field extends Component {
-    render(){
-        return(
-            <div className="form-group">
-                {this.props.elementName === 'input' ?
-                    <div className="form-group mb-md-0">
-                    <input 
+const Field = ({ elementName, name, type, placeholder, onChange, onBlur, touched, errors }) => {
+    return (
+        <div className="form-group">
+            {elementName === 'input' ?
+                <div className="form-group mb-md-0">
+                <input 
+                    className="form-control" 
+                    id={name}
+                    type={type} 
+                    placeholder={placeholder}
+                    required="required" 
+                    data-validation-required-message="Please enter your name."
+                    name = {name}
+                    onChange={onChange}
+                    onBlur={onBlur}
+                />
+                </div>
+                :
+                <div className="form-group form-group-textarea mb-md-0">
+                    <textarea 
                         className="form-control" 
-                        id={this.props.name}
-                        type={this.props.type} 
-                        placeholder={this.props.placeholder}
+                        id={name}
+                        placeholder={placeholder}
                         required="required" 
-                        data-validation-required-message="Please enter your name."
-                        name = {this.props.name}
-                        onChange={this.props.onChange}
-                        onBlur={this.props.onBlur}
+                        data-validation-required-message="Please enter a message."
+                        name = {name}
+                        onChange={onChange}
+                        onBlur={onBlur}
                     />
-                    </div>
-                    :
-                    <div className="form-group form-group-textarea mb-md-0">
-                        <textarea 
-                            className="form-control" 
-                            id={this.props.name}
-                            placeholder={this.props.placeholder}
-                            required="required" 
-                            data-validation-required-message="Please enter a message."
-                            name = {this.props.name}
-                            onChange={this.props.onChange}
-                            onBlur={this.props.onBlur}
-                        />
-                    </div> 
-                }
-                   <p className="help-block text-danger">
-                        {(this.props.touched && this.props.errors) &&
-                            <span>{this.props.errors}</span>
-                            }
-                    </p>
-   
-            </div>
-        )
-    }
+                </div> 
+            }
+            <p className="help-block text-danger">
+                {(touched && errors) &&
+                    <span>{errors}</span>
+                    }
+            </p>
+        </div>
+    );
 }
 
 export default Field;

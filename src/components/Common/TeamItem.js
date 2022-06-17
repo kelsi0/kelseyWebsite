@@ -1,19 +1,17 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class TeamItem extends Component {
-    render(){
-        return(
-            <div class="col-lg-4">
-            <div class="team-member">
-                <img class="mx-auto rounded-circle" src={this.props.img} alt="" />
-                <h4>{this.props.title}</h4>
-                <p class="text-muted">{this.props.role}</p>
-                <a class="btn btn-dark btn-social mx-2" href={this.props.github}><i class="fab fa-github"></i></a>
-                <a class="btn btn-dark btn-social mx-2" href={this.props.facebook}><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-dark btn-social mx-2" href={this.props.linkedin}><i class="fab fa-linkedin-in"></i></a>
-            </div>
+const TeamItem = ({ img, title, role, github, facebook, linkedin }) => {
+    return(
+        <div class="col-lg-4">
+        <div class="team-member">
+            <img class="mx-auto rounded-circle" src={img} alt="" />
+            <h4>{title}</h4>
+            <p class="text-muted">{role}</p>
+            <a class="btn btn-dark btn-social mx-2" href={github}><i class="fab fa-github"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href={facebook}><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href={linkedin}><i class="fab fa-linkedin-in"></i></a>
         </div>
-        )
-    }
+    </div>
+    );
 }
 export default TeamItem;

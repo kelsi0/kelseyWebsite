@@ -1,12 +1,11 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class ArticleComponentText extends Component {
-    render(){
-        return(
-            <div>
-                <p className="textCardBox">{this.props.text}</p>
-            </div>
-        )
-    }
+const ArticleComponentText = ({ text }) => {
+    return(
+        <div>
+            <p className="textCardBox">{text}</p>
+        </div>
+    );
 }
+
 export default  ArticleComponentText;

@@ -1,24 +1,20 @@
-import React, {Component} from 'react';
-import { Link, Route } from 'react-router-dom';
-import BlogArticlePage from '../Blog/BlogArticlePage';
-// import Image from "../../assets/img/Climbing/Climbing.jpg"
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-class CardComponent extends Component {
-    render(){
-        return(
+const CardComponent = ({ id, title, date, card_details }) => {
+    return (
         <div className="cardBox">
-        <div className="col-md-auto">
-            <Link className="cardTitle"
-            to={{
-                pathname:"/blogArticlePage",
-                search:"?id="+this.props.id
-                }}>{this.props.title}</Link>
-            <h6 className="my-3">{this.props.date}</h6>
-            <img className="img-fluid smallImageBox" src={this.props.card_details.card_image} alt="Picture"></img>
-            <p className="textCardBox">{this.props.card_details.summary}</p>
+            <div className="col-md-auto">
+                <Link className="cardTitle"
+                to={{
+                    pathname:"/blogArticlePage",
+                    search:"?id="+id
+                    }}>{title}</Link>
+                <h6 className="my-3">{date}</h6>
+                <img className="img-fluid smallImageBox" src={card_details.card_image} alt="Picture"></img>
+                <p className="textCardBox">{card_details.summary}</p>
+            </div>
         </div>
-        </div>
-        )
-    }
+    );
 }
 export default CardComponent;
