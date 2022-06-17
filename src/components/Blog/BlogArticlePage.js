@@ -1,21 +1,13 @@
-import React, {Component} from 'react';
+import React from 'react';
 import BlogArticle from '../Blog/BlogArticle';
-import CardComponent from '../Blog/CardComponent';
-import data from "../../data";
 
-import {
-    BrowserRouter as Router,
-    Link,
-    useLocation
-} from "react-router-dom";
-
-const postsDataList = data.posts
+import { useLocation } from "react-router-dom";
 
 function useQuery() {
     return new URLSearchParams(useLocation().search);
 }
 
-function BlogArticlePage (){
+const BlogArticlePage = () => {
     let query = useQuery();
     let id = query.get("id");
     return(

@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import TimelineItem from './TimelineItem';
 import image1 from '../../assets/img/About/About1.png';
 import image2 from '../../assets/img/About/About2.png';
@@ -12,37 +12,35 @@ const timeline = [
     {Date: 'March 2020', item: 'Covid-19', description: 'With all piano tuition halted due to Covid, I launched headfirst into finding a new career path. Beginning my 3 week course with CodeNation in Jan 2021, I developed a passion for software development and have been expanding my knowledge ever since.', image: image4},
 ]
 
-class Timeline extends Component {
-    render(){
-        return(
-            // <!-- About-->
-            <section className="page-section" id="about">
-                <div className="container">
-                    <div className="text-center">
-                        <h2 className="section-heading text-uppercase">About</h2>
-                        <h3 className="section-subheading text-muted">All About me and my journey so far!.</h3>
-                    </div>
-                    <ul className="timeline">
-                        {timeline.map((item, index) => {
-                            return <TimelineItem {...item} key = {index} />
-                        })}
-
-                        <li className="timeline-inverted">
-                            <div className="timeline-image">
-                                <h4>
-                                    More 
-                                    <br />
-                                    to
-                                    <br />
-                                    come!
-                                </h4>
-                            </div>
-                        </li>
-                    </ul>
+const Timeline = () => {
+    return(
+        // <!-- About-->
+        <section className="page-section" id="about">
+            <div className="container">
+                <div className="text-center">
+                    <h2 className="section-heading text-uppercase">About</h2>
+                    <h3 className="section-subheading text-muted">All About me and my journey so far!.</h3>
                 </div>
-            </section>
-        )
-    }
+                <ul className="timeline">
+                    {timeline.map((item, index) => {
+                        return <TimelineItem {...item} key = {index} />
+                    })}
+
+                    <li className="timeline-inverted">
+                        <div className="timeline-image">
+                            <h4>
+                                More 
+                                <br />
+                                to
+                                <br />
+                                come!
+                            </h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    );
 }
 
 export default Timeline;
