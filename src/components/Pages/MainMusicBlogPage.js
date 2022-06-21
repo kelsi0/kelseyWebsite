@@ -8,16 +8,6 @@ const postsDataList = data.posts.music_posts
 const MainMusicBlogPage = () => {
     return(
         <section className="page-section"> 
-        {/* TO-DO: Try to add this in later? */}
-            {/* <SmallerHeader 
-                title="Welcome to the"
-                subtitle="Blog Page"
-                buttonText="Tell me more"
-                link="/skills"
-                showButton={false}
-                image={image}
-            /> */}
-        {/* Change this in CSS */}
             <div className="container">
                 <div className="text-center">
                     <h2 className="section-heading text-uppercase">My Music Journey</h2>

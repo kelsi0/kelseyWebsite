@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const CardComponent = ({ id, title, date, card_details }) => {
+    console.log(card_details);
     return (
         <div className="cardBox">
             <div className="col-md-auto">
