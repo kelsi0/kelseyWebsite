@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/kelseyWebsite/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/kelseyWebsite/static/js/main.89c9ee86.chunk.js",
-    "main.js.map": "/kelseyWebsite/static/js/main.89c9ee86.chunk.js.map",
+    "main.css": "/kelseyWebsite/static/css/main.d034e69e.chunk.css",
+    "main.js": "/kelseyWebsite/static/js/main.26d13a2d.chunk.js",
+    "main.js.map": "/kelseyWebsite/static/js/main.26d13a2d.chunk.js.map",
     "runtime-main.js": "/kelseyWebsite/static/js/runtime-main.46ebc894.js",
     "runtime-main.js.map": "/kelseyWebsite/static/js/runtime-main.46ebc894.js.map",
     "static/js/2.c8633e62.chunk.js": "/kelseyWebsite/static/js/2.c8633e62.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.3f58d573.chunk.js": "/kelseyWebsite/static/js/3.3f58d573.chunk.js",
     "static/js/3.3f58d573.chunk.js.map": "/kelseyWebsite/static/js/3.3f58d573.chunk.js.map",
     "index.html": "/kelseyWebsite/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/kelseyWebsite/static/css/main.8c8b27cf.chunk.css.map",
+    "static/css/main.d034e69e.chunk.css.map": "/kelseyWebsite/static/css/main.d034e69e.chunk.css.map",
     "static/js/2.c8633e62.chunk.js.LICENSE.txt": "/kelseyWebsite/static/js/2.c8633e62.chunk.js.LICENSE.txt",
     "static/media/About1.e3776cdc.png": "/kelseyWebsite/static/media/About1.e3776cdc.png",
     "static/media/About2.d35c1dd1.png": "/kelseyWebsite/static/media/About2.d35c1dd1.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.46ebc894.js",
     "static/js/2.c8633e62.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.89c9ee86.chunk.js"
+    "static/css/main.d034e69e.chunk.css",
+    "static/js/main.26d13a2d.chunk.js"
   ]
 }
