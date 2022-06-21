@@ -9,15 +9,15 @@ const codePostData = data.posts.code_posts
 const BlogArticle = ({ id }) => {
     let post = null;
     postData.forEach(element => {
-        if(element.id === id)
+        if(parseInt(element.id) === parseInt(id))
             post = element;
     });
     musicPostData.forEach(element => {
-        if(element.id === id)
+        if(parseInt(element.id) === parseInt(id))
             post = element;
     });
     codePostData.forEach(element => {
-        if(element.id === id)
+        if(parseInt(element.id) === parseInt(id))
             post = element;
     });
 
@@ -27,7 +27,7 @@ const BlogArticle = ({ id }) => {
                 <h2 className="cardTitle">{post.title}</h2>
                 <h6 className="my-3">{post.date}</h6>
                 {post.post_elements.map((item, index) => {
-                        return <ArticleComponent {...item} key ={index} />
+                        return <ArticleComponent {...item} key={index} />
                     })}
 
             </div>

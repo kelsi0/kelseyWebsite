@@ -7,8 +7,8 @@ const Header = ({ image, title, subtitle, showButton, link, buttonText }) => {
         <header className="masthead" >       
             <div className="headerContainer">
                 <div className='header--container' style={{ backgroundImage: `url(${image})` }}>
-                    <div>{title}</div>
-                    <div>{subtitle}</div>
+                    <div className="header--title">{title}</div>
+                    <div className="header--subtitle">{subtitle}</div>
                     <div className="masthead-button">{
                     showButton &&
                         <Link className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" to={link}>{buttonText}</Link>
