@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import CardComponent from "../Blog/CardComponent";
 import data from "../../data";
 import Sidebar from '../Common/SideBar';

@@ -19,14 +19,12 @@ const ArticleComponent = ({ element_type, image_url, alt_text, text, video_url, 
                 <ArticleComponentText 
                 text={text} />
                 )
-            break;
 
         case "video":
             return(
                 <ArticleComponentVideo 
                 video_url={video_url} />
                 )
-            break;
 
         case "code_snippet":
             return(
@@ -34,7 +32,6 @@ const ArticleComponent = ({ element_type, image_url, alt_text, text, video_url, 
                 trinket_url={trinket_url} 
                 code_title={code_title} />
             )
-            break;
 
         default: break;
     }

@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import Field from "../Common/Field";
 import { withFormik } from 'formik';
 import * as Yup from 'yup';
