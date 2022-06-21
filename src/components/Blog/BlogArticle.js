@@ -9,15 +9,15 @@ const codePostData = data.posts.code_posts
 const BlogArticle = ({ id }) => {
     let post = null;
     postData.forEach(element => {
-        if(element.id == id)
+        if(element.id === id)
             post = element;
     });
     musicPostData.forEach(element => {
-        if(element.id == id)
+        if(element.id === id)
             post = element;
     });
     codePostData.forEach(element => {
-        if(element.id == id)
+        if(element.id === id)
             post = element;
     });
 

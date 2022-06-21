@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 
 const Field = ({ elementName, name, type, placeholder, onChange, onBlur, touched, errors }) => {
     return (

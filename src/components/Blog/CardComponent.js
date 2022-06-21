@@ -11,7 +11,7 @@ const CardComponent = ({ id, title, date, card_details }) => {
                     search:"?id="+id
                     }}>{title}</Link>
                 <h6 className="my-3">{date}</h6>
-                <img className="img-fluid smallImageBox" src={card_details.card_image} alt="Picture"></img>
+                <img className="img-fluid smallImageBox" src={card_details.card_image} alt={title}></img>
                 <p className="textCardBox">{card_details.summary}</p>
             </div>
         </div>

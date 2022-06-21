@@ -5,7 +5,6 @@ import image from '../../assets/img/Home/home.jpg';
 // Re-Usabled components
 import Skills from "../Common/Skills";
 import Timeline from "../Common/Timeline";
-import Team from "../Common/Teams";
 
 const Home = () => {
     return(
@@ -20,7 +19,6 @@ const Home = () => {
             />
             <Skills />
             <Timeline />
-            {/* <Team /> */}
         </div>
     );
 }
