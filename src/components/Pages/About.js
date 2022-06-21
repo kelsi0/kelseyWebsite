@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import Header from '../Common/Header';
 import image from '../../assets/img/About/about.jpg'
 import Timeline from '../Common/Timeline';
