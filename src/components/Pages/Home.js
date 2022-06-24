@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import Header from '../Common/Header';
-import image from '../../assets/img/Home/home.jpg';
+import useFetchHero from './useFetchHero';
 
 // Re-Usabled components
+import Header from '../Common/Header';
 import Skills from "../Common/Skills";
 import Timeline from "../Common/Timeline";
 
@@ -22,46 +22,27 @@ const query = `
 }`
 
 const Home = () => {
-    const [page, setPage] = useState(null);
+    const { data, fetchData } = useFetchHero();
+    const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
-        window
-          .fetch(`https://graphql.contentful.com/content/v1/spaces/69v5xsxlo5gg/`, {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-              // Authenticate the request
-              Authorization: "Bearer lFmI8kh54j6iuWfUmrGD_PhTZehXoU0IAhfOvI-o4Ns",
-            },
-            // send the GraphQL query
-            body: JSON.stringify({ query }),
-          })
-          .then((response) => response.json())
-          .then(({ data, errors }) => {
-            if (errors) {
-              console.error(errors);
-            }
+      fetchData(query);
+      setIsLoading(false);
+    }, []);
     
-            // rerender the entire component with new data
-            setPage(data.heroCollection.items[0]);
-          });
-      }, []);
-
-      console.log(page);
-    
-    if (!page) {
+    if (isLoading | !data) {
     return "Loading...";
     }
 
     return(
         <div className="custom-content-div">
             <Header
-                title={page.title}
-                subtitle={page.subtitle}
+                title={data.title}
+                subtitle={data.subtitle}
                 buttonText="Tell me more"
                 link="/skill"
                 showButton={false}
-                image={page.bannerImage.url}
+                image={data.bannerImage.url}
             />
             <Skills />
             <Timeline />
