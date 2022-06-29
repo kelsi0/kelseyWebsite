@@ -12,6 +12,7 @@ import MainBlogPage from './components/Pages/MainBlogPage';
 import BlogArticlePage from './components/Blog/BlogArticlePage';
 import MainMusicBlogPage from './components/Pages/MainMusicBlogPage';
 import MainCodeBlogPage from './components/Pages/MainCodeBlogPage';
+import PrivacyPolicies from './components/Pages/PrivacyPolicies';
 
 const App = () => {
   return(
@@ -49,6 +50,10 @@ const App = () => {
         <Route
         path="/mainCodeBlogPage"
         component={MainCodeBlogPage}
+        />
+        <Route
+        path="/privacy-policy"
+        component={PrivacyPolicies}
         />
       </PageWrapper>
     </HashRouter>
